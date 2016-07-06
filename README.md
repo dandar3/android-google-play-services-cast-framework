@@ -1,7 +1,7 @@
 ## android-google-play-services-cast-framework-framework
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/google/m2repository/com/google/android/gms/play-services-cast-framework/9.0.2/play-services-cast-framework-9.0.2.aar`
+`ANDROID_SDK/extras/google/m2repository/com/google/android/gms/play-services-cast-framework/9.2.0/play-services-cast-framework-9.2.0.aar`
 
 **Requires:**
 - `Android 6.0 (API 23) SDK Platform`
@@ -10,8 +10,7 @@ Eclipse library project based on:<br/>
 - [dandar3/android-google-play-services-cast](https://github.com/dandar3/android-google-play-services-cast)
 
 **References:**
-- https://developers.google.com/android/guides/releases#may_2016_-_v90
-- https://android-developers.blogspot.com/2016/05/google-play-services-90-updates.html
+- https://developers.google.com/android/guides/releases#june_2016_-_v92
 
 **SVN checkout:**
-* https://github.com/dandar3/android-google-play-services-cast-framework/tags/9.0.2
+* https://github.com/dandar3/android-google-play-services-cast-framework/tags/9.2.0
