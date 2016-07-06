@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.google.android.gms.cast.framework"
+          android:versionCode="920"
+          android:versionName="9.2.0">
+    <uses-sdk android:minSdkVersion="9"/>
+    <application>
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService"/>
+    </application>
+</manifest>
