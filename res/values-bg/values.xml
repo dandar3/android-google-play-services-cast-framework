@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/tmp/tmp-deduplicated2024522587944169504/blaze-out/gcc-4.X.Y-crosstool-v18-hybrid-grtev4-k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-bg/cast_strings.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/blaze-out/gcc-4.X.Y-crosstool-v18-hybrid-grtev4-k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-bg/cast_strings.xml -->
     <eat-comment/>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Реклама"</string>
     <string msgid="366047012176970604" name="cast_casting_to_device">"Предава се към „%1$s“"</string>
     <string msgid="2888745622334830481" name="cast_closed_captions">"Субтитри"</string>
     <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Субтитрите не са налице"</string>
     <string msgid="4431992200264667209" name="cast_disconnect">"Прекратяване на връзката"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Рекламата е в ход…"</string>
     <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Обложка на албума"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Предаване на живо"</string>
     <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Зарежда се…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Пропускане"</string>
     <string msgid="7884080323096468593" name="cast_forward">"Превъртане напред"</string>
     <string msgid="6424889955881797947" name="cast_forward_10">"Превъртане напред с десет секунди"</string>
     <string msgid="7868672855975238403" name="cast_forward_30">"Превъртане напред с тридесет секунди"</string>
@@ -28,7 +32,6 @@
     <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Запис <ns1:g id="POSITION">%1$d</ns1:g>"</string>
     <string msgid="5563446400083425854" name="cast_tracks_chooser_dialog_no_audio_tracks">"Няма налични аудиозаписи"</string>
     <string msgid="7413336699113748535" name="cast_tracks_chooser_dialog_no_text_tracks">"Няма налични текстови записи"</string>
-    <string msgid="2332432312191219516" name="cast_tracks_chooser_dialog_no_tracks_available">"Няма налични записи"</string>
     <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Няма"</string>
     <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"ОK"</string>
     <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Субтитри"</string>
