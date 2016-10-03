@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/blaze-out/gcc-4.X.Y-crosstool-v18-hybrid-grtev4-k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-ka/cast_strings.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/blaze-out/gcc-4.X.Y-crosstool-v18-hybrid-grtev4-k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-ka/cast_strings.xml -->
     <eat-comment/>
     <string msgid="4778414446709286370" name="cast_ad_label">"რეკლამა"</string>
     <string msgid="366047012176970604" name="cast_casting_to_device">"ტრანსლირება %1$s-ში"</string>

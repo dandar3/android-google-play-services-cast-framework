@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_arrays.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_arrays.xml -->
     <eat-comment/>
     <array name="cast_expanded_controller_default_control_buttons">
         <item>@id/cast_button_type_closed_caption</item>
@@ -13,10 +13,10 @@
         <item>@id/cast_button_type_empty</item>
         <item>@id/cast_button_type_play_pause_toggle</item>
     </array>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_attrs.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_attrs.xml -->
     <eat-comment/>
     <attr format="reference" name="castExpandedControllerToolbarStyle"/>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_colors.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_colors.xml -->
     <eat-comment/>
     <color name="cast_expanded_controller_ad_container_white_stripe_color">#1AFFFFFF</color>
     <color name="cast_expanded_controller_ad_label_background_color">#2F000000</color>
@@ -26,19 +26,19 @@
     <color name="cast_expanded_controller_text_color">#FFFFFF</color>
     <color name="cast_intro_overlay_background_color">#CC000000</color>
     <color name="cast_intro_overlay_button_background_color">#BB33B5E5</color>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/colors.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/colors.xml -->
     <eat-comment/>
     <color name="cast_libraries_material_featurehighlight_outer_highlight_default_color">#2196F3</color>
     <color name="cast_libraries_material_featurehighlight_text_body_color">#FFFFFFFF</color>
     <color name="cast_libraries_material_featurehighlight_text_header_color">#FFFFFFFF</color>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_colors.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_colors.xml -->
     <eat-comment/>
     <color name="cast_mini_controller_disabled_button_drawable_tint_color">#7FFFFFFF</color>
     <declare-styleable name="CastExpandedController"><attr name="castControlButtons"/></declare-styleable>
     <declare-styleable name="CastIntroOverlay"><attr format="color|reference" name="castBackgroundColor"/><attr format="color|reference" name="castButtonBackgroundColor"/><attr format="reference" name="castButtonTextAppearance"/><attr format="string|reference" name="castButtonText"/><attr format="reference" name="castTitleTextAppearance"/><attr format="dimension|reference" name="castFocusRadius"/></declare-styleable>
     <declare-styleable name="CastMiniController"><attr format="boolean" name="castShowImageThumbnail"/><attr name="castTitleTextAppearance"/><attr format="reference" name="castSubtitleTextAppearance"/><attr format="reference" name="castControlButtons"/></declare-styleable>
     <declare-styleable name="CustomCastTheme"><attr format="reference" name="castIntroOverlayStyle"/><attr format="reference" name="castMiniControllerStyle"/><attr format="reference" name="castExpandedControllerStyle"/></declare-styleable>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_dimens.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_dimens.xml -->
     <eat-comment/>
     <dimen name="cast_expanded_controller_ad_in_progress_label_layout_height">240dp</dimen>
     <dimen name="cast_expanded_controller_ad_in_progress_label_layout_width">-1px</dimen>
@@ -49,7 +49,7 @@
     <dimen name="cast_intro_overlay_button_margin_bottom">50dp</dimen>
     <dimen name="cast_intro_overlay_focus_radius">35dp</dimen>
     <dimen name="cast_intro_overlay_title_margin_top">100dp</dimen>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/dimens.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="cast_libraries_material_featurehighlight_center_horizontal_offset">20dp</dimen>
     <dimen name="cast_libraries_material_featurehighlight_center_threshold">88dp</dimen>
@@ -62,7 +62,7 @@
     <dimen name="cast_libraries_material_featurehighlight_text_horizontal_offset">20dp</dimen>
     <dimen name="cast_libraries_material_featurehighlight_text_max_width">320dp</dimen>
     <dimen name="cast_libraries_material_featurehighlight_text_vertical_space">16dp</dimen>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_dimens.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_dimens.xml -->
     <eat-comment/>
     <dimen name="cast_mini_controller_control_button_margin">16dp</dimen>
     <dimen name="cast_mini_controller_font_size_line1">15sp</dimen>
@@ -72,7 +72,7 @@
     <dimen name="cast_notification_image_size">75dp</dimen>
     <dimen name="cast_tracks_chooser_dialog_no_message_text_size">18sp</dimen>
     <dimen name="cast_tracks_chooser_dialog_row_text_size">18sp</dimen>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_ids.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_ids.xml -->
     <eat-comment/>
     <item name="cast_button_type_closed_caption" type="id"/>
     <item name="cast_button_type_custom" type="id"/>
@@ -83,15 +83,15 @@
     <item name="cast_button_type_rewind_30_seconds" type="id"/>
     <item name="cast_button_type_skip_next" type="id"/>
     <item name="cast_button_type_skip_previous" type="id"/>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/ids.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/ids.xml -->
     <eat-comment/>
     <item name="cast_featurehighlight_help_text_body_view" type="id"/>
     <item name="cast_featurehighlight_help_text_header_view" type="id"/>
     <item name="cast_featurehighlight_view" type="id"/>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/values.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/src/com/google/android/gms/cast/framework/internal/featurehighlight/res/values/values.xml -->
     <eat-comment/>
     <integer name="cast_libraries_material_featurehighlight_pulse_base_alpha">138</integer>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_strings.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_strings.xml -->
     <eat-comment/>
     <string name="cast_ad_label">Ad</string>
     <string name="cast_casting_to_device">Casting to %1$s</string>
@@ -129,7 +129,7 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtitles</string>
     <string name="cast_unmute">Unmute</string>
-    <!-- From: file:/tmp/aar_gen_tmp6682929371290315669/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_styles.xml -->
+    <!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_styles.xml -->
     <eat-comment/>
     <style name="CastExpandedController">
         <item name="castControlButtons">@array/cast_expanded_controller_default_control_buttons</item>
