@@ -12,6 +12,13 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:contentDescription="@string/cast_expanded_controller_background_image" />
+    <ImageView
+        android:id="@+id/blurred_background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:contentDescription="@string/cast_expanded_controller_background_image" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -248,4 +255,3 @@
     </RelativeLayout>
 
 </RelativeLayout>
-<!-- From: file:/tmp/aar_gen_tmp1364595097250085438/tmp-deduplicated/java/com/google/android/gmscore/integ/client/cast/framework/res/layout/cast_expanded_controller_activity.xml -->
