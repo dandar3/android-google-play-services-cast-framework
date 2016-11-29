@@ -69,16 +69,31 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/ad_label"
                     android:background="@color/cast_expanded_controller_ad_container_white_stripe_color">
+                    <View
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="@dimen/cast_expanded_controller_ad_background_layout_width"
+                        android:layout_height="@dimen/cast_expanded_controller_ad_background_layout_height"
+                        android:background="@android:color/black" />
                     <TextView
                         android:id="@+id/ad_in_progress_label"
-                        android:layout_width="@dimen/cast_expanded_controller_ad_in_progress_label_layout_width"
-                        android:layout_height="@dimen/cast_expanded_controller_ad_in_progress_label_layout_height"
+                        android:layout_width="@dimen/cast_expanded_controller_ad_layout_width"
+                        android:layout_height="@dimen/cast_expanded_controller_ad_layout_height"
                         android:layout_centerHorizontal="true"
                         android:gravity="center"
-                        android:background="@android:color/black"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="@color/cast_expanded_controller_text_color"
                         android:text="@string/cast_expanded_controller_ad_in_progress" />
+                    <ImageView
+                        android:id="@+id/ad_image_view"
+                        android:layout_width="@dimen/cast_expanded_controller_ad_layout_width"
+                        android:layout_height="@dimen/cast_expanded_controller_ad_layout_height"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitXY"
+                        android:contentDescription="@string/cast_expanded_controller_ad_image_description"
+                        android:src="@drawable/quantum_ic_bigtop_updates_white_24"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

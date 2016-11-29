@@ -7,6 +7,7 @@
 <string name="cast_closed_captions" msgid="2888745622334830481">"Субтитры"</string>
 <string name="cast_closed_captions_unavailable" msgid="4476421850100851087">"Субтитры недоступны"</string>
 <string name="cast_disconnect" msgid="4431992200264667209">"Отключить"</string>
+<string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"Изображение, показанное во время трансляции объявления"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"Трансляция объявления…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"Обложка"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"Прямой эфир"</string>
@@ -29,6 +30,7 @@
 <string name="cast_stop_live_stream" msgid="1219622777438777099">"Остановить трансляцию"</string>
 <string name="cast_tracks_chooser_dialog_audio" msgid="4250321332248956563">"Аудио"</string>
 <string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"Отмена"</string>
+<string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Субтитры"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"Трек <xliff:g id="POSITION">%1$d</xliff:g>"</string>
 <string name="cast_tracks_chooser_dialog_no_audio_tracks" msgid="5563446400083425854">"Нет доступных аудиотреков"</string>
 <string name="cast_tracks_chooser_dialog_no_text_tracks" msgid="7413336699113748535">"Нет доступных текстовых треков"</string>

@@ -7,9 +7,10 @@
 <string name="cast_closed_captions" msgid="2888745622334830481">"Alt yazılar"</string>
 <string name="cast_closed_captions_unavailable" msgid="4476421850100851087">"Altyazılar kullanılamıyor"</string>
 <string name="cast_disconnect" msgid="4431992200264667209">"Bağlantıyı kes"</string>
+<string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"Yayın alıcıda bir reklam oynatılırken gösterilen resim"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"Reklam işleniyor…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"Albüm kapağı"</string>
-<string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"Canlı akış"</string>
+<string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"Canlı yayın"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"Yükleniyor…"</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8399595886048969508">"Atla"</string>
 <string name="cast_forward" msgid="7884080323096468593">"İleri sar"</string>
@@ -26,9 +27,10 @@
 <string name="cast_skip_next" msgid="3991548379225047363">"Sonraki öğeye atla"</string>
 <string name="cast_skip_prev" msgid="8369073097776576935">"Önceki öğeye atla"</string>
 <string name="cast_stop" msgid="9191388946729723891">"Durdur"</string>
-<string name="cast_stop_live_stream" msgid="1219622777438777099">"Canlı akışı durdur"</string>
+<string name="cast_stop_live_stream" msgid="1219622777438777099">"Canlı yayını durdur"</string>
 <string name="cast_tracks_chooser_dialog_audio" msgid="4250321332248956563">"Ses"</string>
 <string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"İptal"</string>
+<string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Altyazılar"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"Parça <xliff:g id="POSITION">%1$d</xliff:g>"</string>
 <string name="cast_tracks_chooser_dialog_no_audio_tracks" msgid="5563446400083425854">"Ses Kanalı Yok"</string>
 <string name="cast_tracks_chooser_dialog_no_text_tracks" msgid="7413336699113748535">"Metin Kanalı Yok"</string>

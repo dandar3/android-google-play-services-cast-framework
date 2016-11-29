@@ -7,6 +7,7 @@
 <string name="cast_closed_captions" msgid="2888745622334830481">"Teksting for hørselshemmede"</string>
 <string name="cast_closed_captions_unavailable" msgid="4476421850100851087">"Teksting for hørselshemmede er ikke tilgjengelig"</string>
 <string name="cast_disconnect" msgid="4431992200264667209">"Koble fra"</string>
+<string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"Bildet vises mens cast-mottakeren spiller av en annonse"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"Annonse pågår …"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"Albumgrafikk"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"Direktesending"</string>
@@ -29,6 +30,7 @@
 <string name="cast_stop_live_stream" msgid="1219622777438777099">"Stopp direktesendingen"</string>
 <string name="cast_tracks_chooser_dialog_audio" msgid="4250321332248956563">"Lyd"</string>
 <string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"Avbryt"</string>
+<string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Teksting for hørselshemmede"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"Spor <xliff:g id="POSITION">%1$d</xliff:g>"</string>
 <string name="cast_tracks_chooser_dialog_no_audio_tracks" msgid="5563446400083425854">"Ingen lydspor er tilgjengelig"</string>
 <string name="cast_tracks_chooser_dialog_no_text_tracks" msgid="7413336699113748535">"Ingen tekstspor er tilgjengelig"</string>
