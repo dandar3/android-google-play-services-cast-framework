@@ -30,7 +30,7 @@
 <string name="cast_stop_live_stream" msgid="1219622777438777099">"Detener streaming en directo"</string>
 <string name="cast_tracks_chooser_dialog_audio" msgid="4250321332248956563">"Audio"</string>
 <string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"Cancelar"</string>
-<string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Subtítulos opcionales"</string>
+<string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Subtítulos"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"Pista <xliff:g id="POSITION">%1$d</xliff:g>"</string>
 <string name="cast_tracks_chooser_dialog_no_audio_tracks" msgid="5563446400083425854">"No hay pistas de audio disponibles"</string>
 <string name="cast_tracks_chooser_dialog_no_text_tracks" msgid="7413336699113748535">"No hay pistas de texto disponibles"</string>

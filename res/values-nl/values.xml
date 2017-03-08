@@ -23,7 +23,7 @@
 <string name="cast_rewind" msgid="1739665135565985480">"Terugspoelen"</string>
 <string name="cast_rewind_10" msgid="6432793028560778843">"Tien seconden terugspoelen"</string>
 <string name="cast_rewind_30" msgid="4677199707225681325">"Dertig seconden terugspoelen"</string>
-<string name="cast_seek_bar" msgid="9078075166993780241">"Schuifbalk voor afspelen"</string>
+<string name="cast_seek_bar" msgid="9078075166993780241">"Scrollbar voor afspelen"</string>
 <string name="cast_skip_next" msgid="3991548379225047363">"Overslaan en naar volgend item"</string>
 <string name="cast_skip_prev" msgid="8369073097776576935">"Overslaan en naar vorig item"</string>
 <string name="cast_stop" msgid="9191388946729723891">"Stoppen"</string>
