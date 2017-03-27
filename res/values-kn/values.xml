@@ -29,7 +29,7 @@
 <string name="cast_stop" msgid="9191388946729723891">"ನಿಲ್ಲಿಸು"</string>
 <string name="cast_stop_live_stream" msgid="1219622777438777099">"ಲೈವ್ ಸ್ಟ್ರೀಮ್ ನಿಲ್ಲಿಸು"</string>
 <string name="cast_tracks_chooser_dialog_audio" msgid="4250321332248956563">"ಆಡಿಯೊ"</string>
-<string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"ರದ್ದು ಮಾಡು"</string>
+<string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"ರದ್ದು ಮಾಡಿ"</string>
 <string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆಗಳು"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"<xliff:g id="POSITION">%1$d</xliff:g> ಟ್ರ್ಯಾಕ್ ಮಾಡಿ"</string>
 <string name="cast_tracks_chooser_dialog_no_audio_tracks" msgid="5563446400083425854">"ಯಾವುದೇ ಆಡಿಯೋ ಟ್ರ್ಯಾಕ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ"</string>
