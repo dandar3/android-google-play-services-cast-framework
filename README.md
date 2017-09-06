@@ -10,7 +10,8 @@ Eclipse library project based on:<br/>
 - [dandar3/android-google-play-services-cast](https://github.com/dandar3/android-google-play-services-cast/tree/11.2.0)
 
 **References:**
-- https://developers.google.com/cast/docs/release-notes#november-21-2016
+- https://developers.google.com/cast/docs/release-notes
+- https://developers.google.com/cast/docs/developers
 - https://developers.google.com/android/guides/releases#august_2017_-_version_1120
 
 **SVN checkout:**
