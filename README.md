@@ -1,4 +1,4 @@
-## android-google-play-services-cast-framework-framework
+## android-google-play-services-cast-framework
 
 Eclipse library project based on:<br/>
 https://maven.google.com/com/google/android/gms/play-services-cast-framework/12.0.0/play-services-cast-framework-12.0.0.aar
