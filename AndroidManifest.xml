@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.android.gms.cast.framework" 
-    android:versionCode="1201"
-    android:versionName="12.0.1">
+    android:versionCode="1500"
+    android:versionName="15.0.0">
 
     <uses-sdk android:minSdkVersion="14" />
 
     <application>
-        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+        <receiver
+            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+            android:exported="false" />
 
         <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
         <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />

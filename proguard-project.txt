@@ -1,0 +1,1 @@
+-keep public class * implements com.google.android.gms.cast.framework.OptionsProvider
