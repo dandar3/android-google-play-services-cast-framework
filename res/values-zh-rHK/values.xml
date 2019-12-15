@@ -11,6 +11,7 @@
 <string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"投放接收器播放廣告時顯示的圖片"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"正在投放廣告…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"專輯封面"</string>
+<string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"目前正處於即時串流開始位置"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"即時串流"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"正在載入…"</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"略過廣告"</string>
@@ -19,6 +20,7 @@
 <string name="cast_forward_10" msgid="6424889955881797947">"前轉 10 秒"</string>
 <string name="cast_forward_30" msgid="7868672855975238403">"前轉 30 秒"</string>
 <string name="cast_intro_overlay_button_text" msgid="6885943100773268783">"@android:string/ok"</string>
+<string name="cast_live_label" msgid="2177473333963666559">"直播"</string>
 <string name="cast_mute" msgid="5637297909372905371">"靜音"</string>
 <string name="cast_pause" msgid="5308503786390460607">"暫停"</string>
 <string name="cast_play" msgid="5906987965619702702">"播放"</string>

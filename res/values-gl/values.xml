@@ -11,6 +11,7 @@
 <string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"Imaxe que se mostra mentres o receptor de Google Cast reproduce un anuncio"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"Anuncio en curso…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"Portada do álbum"</string>
+<string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"A posición actual está no principio da emisión en directo"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"Emisión en directo"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"Cargando..."</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"Omitir anuncio"</string>
@@ -19,13 +20,14 @@
 <string name="cast_forward_10" msgid="6424889955881797947">"Avanzar dez segundos"</string>
 <string name="cast_forward_30" msgid="7868672855975238403">"Avanzar trinta segundos"</string>
 <string name="cast_intro_overlay_button_text" msgid="6885943100773268783">"@android:string/ok"</string>
+<string name="cast_live_label" msgid="2177473333963666559">"EN DIRECTO"</string>
 <string name="cast_mute" msgid="5637297909372905371">"Silenciar"</string>
 <string name="cast_pause" msgid="5308503786390460607">"Pausar"</string>
 <string name="cast_play" msgid="5906987965619702702">"Reproducir"</string>
 <string name="cast_rewind" msgid="1739665135565985480">"Rebobinar"</string>
 <string name="cast_rewind_10" msgid="6432793028560778843">"Rebobinar dez segundos"</string>
 <string name="cast_rewind_30" msgid="4677199707225681325">"Rebobinar trinta segundos"</string>
-<string name="cast_seek_bar" msgid="9078075166993780241">"Control de busca da reprodución"</string>
+<string name="cast_seek_bar" msgid="9078075166993780241">"Control de avance da reprodución"</string>
 <string name="cast_skip_next" msgid="3991548379225047363">"Omitir e ir ao elemento seguinte"</string>
 <string name="cast_skip_prev" msgid="8369073097776576935">"Omitir e ir ao elemento anterior"</string>
 <string name="cast_stop" msgid="9191388946729723891">"Deter"</string>

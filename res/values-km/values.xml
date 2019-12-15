@@ -3,7 +3,7 @@
 <!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/dev/client/cast/framework/res/values-km/cast_strings.xml -->
 <eat-comment/>
 <string name="cast_ad_label" msgid="4778414446709286370">"ពាណិជ្ជកម្ម"</string>
-<string name="cast_casting_to_device" msgid="366047012176970604">"កំពុងខាសទៅ %s"</string>
+<string name="cast_casting_to_device" msgid="366047012176970604">"កំពុងខាសទៅ %1$s"</string>
 <string name="cast_closed_captions" msgid="2888745622334830481">"បាន​បិទ​ចំណងជើង"</string>
 <string name="cast_closed_captions_unavailable" msgid="4476421850100851087">"មិនមានចំណងជើងភា្ជប់ទេ"</string>
 <string name="cast_connecting_to_device" msgid="6769392312239056170">"កំពុងភ្ជាប់ជាមួយ <xliff:g id="NAME">%1$s</xliff:g>"</string>
@@ -11,6 +11,7 @@
 <string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"រូបភាពបង្ហាញខណៈពេលកម្មវិធីទទួលការខាសនេះចាក់ការផ្សាយពាណិជ្ជកម្ម"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"ពាណិជ្ជកម្មស្ថិតក្នុងដំណើរការ…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"ស្នាដៃសិល្បៈអាល់ប៊ុម"</string>
+<string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"ទីតាំងបច្ចុប្បន្ន​គឺ​ស្ថិត​នៅ​ផ្នែកក្បាលនៃ​ការផ្សាយបន្តផ្ទាល់"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"ស្ទ្រីមបន្តផ្ទាល់"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"កំពុងដំណើរការ..."</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"រំលង​​ពាណិជ្ជកម្ម"</string>
@@ -19,6 +20,7 @@
 <string name="cast_forward_10" msgid="6424889955881797947">"ខាទៅមុខដប់វិនាទី"</string>
 <string name="cast_forward_30" msgid="7868672855975238403">"ខាទៅមុខសាមសិបវិនាទី"</string>
 <string name="cast_intro_overlay_button_text" msgid="6885943100773268783">"@android:string/ok"</string>
+<string name="cast_live_label" msgid="2177473333963666559">"ផ្សាយ​​ផ្ទាល់"</string>
 <string name="cast_mute" msgid="5637297909372905371">"បិទសំឡេង"</string>
 <string name="cast_pause" msgid="5308503786390460607">"ផ្អាក"</string>
 <string name="cast_play" msgid="5906987965619702702">"ចាក់"</string>

@@ -11,6 +11,7 @@
 <string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"ကာ့စ်လက်ခံကိရိယာက ကြော်ငြာဖွင့်နေစဉ် ပြသသော ပုံ"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"Ad လုပ်ဆောင်နေဆဲ…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"အယ်လ်ဘမ်ပုံ"</string>
+<string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"လက်ရှိနေရာသည် တိုက်ရိုက်လွှင့်ခြင်း၏ အစပိုင်းဖြစ်သည်"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"တိုက်ရိုက်ထုတ်လွှင့်မှု"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"ဖွင့်နေသည်…"</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"ကြော်ငြာကို ကျော်ရန်"</string>
@@ -19,6 +20,7 @@
 <string name="cast_forward_10" msgid="6424889955881797947">"အရှေ့သို့ ဆယ်စက္ကန့် ရစ်ပါ"</string>
 <string name="cast_forward_30" msgid="7868672855975238403">"အရှေ့သို့ စက္ကန့်သုံးဆယ် ရစ်ပါ"</string>
 <string name="cast_intro_overlay_button_text" msgid="6885943100773268783">"@android:string/ok"</string>
+<string name="cast_live_label" msgid="2177473333963666559">"တိုက်ရိုက်လွှင့်ခြင်း"</string>
 <string name="cast_mute" msgid="5637297909372905371">"အသံပိတ်ပါ"</string>
 <string name="cast_pause" msgid="5308503786390460607">"ခဏရပ်ပါ"</string>
 <string name="cast_play" msgid="5906987965619702702">"ဖွင့်ပါ"</string>

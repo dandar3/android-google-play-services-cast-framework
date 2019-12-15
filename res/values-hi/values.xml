@@ -3,7 +3,7 @@
 <!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/dev/client/cast/framework/res/values-hi/cast_strings.xml -->
 <eat-comment/>
 <string name="cast_ad_label" msgid="4778414446709286370">"विज्ञापन"</string>
-<string name="cast_casting_to_device" msgid="366047012176970604">"%s पर कास्ट किया जा रहा है"</string>
+<string name="cast_casting_to_device" msgid="366047012176970604">"%1$s पर कास्ट किया जा रहा है"</string>
 <string name="cast_closed_captions" msgid="2888745622334830481">"बंद कैप्‍शन"</string>
 <string name="cast_closed_captions_unavailable" msgid="4476421850100851087">"बंद कैप्शन उपलब्ध नहीं हैं"</string>
 <string name="cast_connecting_to_device" msgid="6769392312239056170">"<xliff:g id="NAME">%1$s</xliff:g> से कनेक्ट हो रहा है"</string>
@@ -11,6 +11,7 @@
 <string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"कास्ट पाने वाले के विज्ञापन देखने के दौरान दिखाई जाने वाली इमेज"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"विज्ञापन चल रहा है…"</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"एल्बम आर्ट"</string>
+<string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"मौजूदा स्थिति, लाइव प्रसारण में सबसे ऊपर है"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"लाइव प्रसारण"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"लोड हो रहा है…"</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"विज्ञापन छोड़ें"</string>
@@ -19,6 +20,7 @@
 <string name="cast_forward_10" msgid="6424889955881797947">"दस सेकंड आगे बढ़ाएं"</string>
 <string name="cast_forward_30" msgid="7868672855975238403">"तीस सेकंड आगे बढ़ाएं"</string>
 <string name="cast_intro_overlay_button_text" msgid="6885943100773268783">"@android:string/ok"</string>
+<string name="cast_live_label" msgid="2177473333963666559">"लाइव"</string>
 <string name="cast_mute" msgid="5637297909372905371">"म्यूट करें"</string>
 <string name="cast_pause" msgid="5308503786390460607">"रोकें"</string>
 <string name="cast_play" msgid="5906987965619702702">"चलाएं"</string>

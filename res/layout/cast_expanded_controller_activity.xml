@@ -25,7 +25,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/cast_expanded_controller_bg_gradient_light">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/toolbar"
-            android:layout_above="@+id/controllers">
+            android:layout_above="@+id/status_text">
 
             <ImageView
                 android:id="@+id/background_place_holder_image_view"
@@ -51,27 +51,27 @@
             <RelativeLayout
                 android:id="@+id/ad_container"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/cast_expanded_controller_ad_container_layout_height"
                 android:layout_centerInParent="true"
                 android:visibility="gone">
                 <TextView
                     android:id="@+id/ad_label"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/cast_expanded_controller_ad_label_layout_height"
                     android:layout_centerHorizontal="true"
-                    android:text="@string/cast_ad_label"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="@color/cast_expanded_controller_text_color"
-                    android:background="@color/cast_expanded_controller_ad_label_background_color" />
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/cast_ad_label" />
                 <RelativeLayout
                     android:layout_marginTop="8dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/ad_label"
-                    android:background="@color/cast_expanded_controller_ad_container_white_stripe_color">
+                    android:layout_below="@id/ad_label">
                     <View
+                        android:id="@+id/ad_background_image_view"
                         android:layout_centerHorizontal="true"
                         android:layout_width="@dimen/cast_expanded_controller_ad_background_layout_width"
+                        android:visibility="gone"
                         android:layout_height="@dimen/cast_expanded_controller_ad_background_layout_height"
                         android:background="@android:color/black" />
                     <TextView
@@ -79,17 +79,16 @@
                         android:layout_width="@dimen/cast_expanded_controller_ad_layout_width"
                         android:layout_height="@dimen/cast_expanded_controller_ad_layout_height"
                         android:layout_centerHorizontal="true"
-                        android:gravity="center"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textColor="@color/cast_expanded_controller_text_color"
-                        android:text="@string/cast_expanded_controller_ad_in_progress" />
+                        android:visibility="gone"
+                        android:gravity="center" />
                     <ImageView
                         android:id="@+id/ad_image_view"
                         android:layout_width="@dimen/cast_expanded_controller_ad_layout_width"
                         android:layout_height="@dimen/cast_expanded_controller_ad_layout_height"
                         android:layout_centerVertical="true"
                         android:layout_centerHorizontal="true"
-                        android:scaleType="fitXY"
+                        android:scaleType="centerInside"
+                        android:adjustViewBounds="true"
                         android:contentDescription="@string/cast_expanded_controller_ad_image_description"
                         android:src="@drawable/quantum_ic_bigtop_updates_white_24"
                         android:visibility="gone"
@@ -140,95 +139,178 @@
 
         </RelativeLayout>
 
+        <TextView
+            android:id="@+id/status_text"
+            android:minHeight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cast_expanded_controller_margin_between_status_text_and_seek_bar"
+            android:layout_above="@+id/controllers"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/cast_expanded_controller_text_color" />
+
+
         <RelativeLayout
-            android:id="@id/controllers"
+            android:id="@+id/tooltip_container"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/controllers"
+            android:layoutDirection="ltr"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tooltip"
+                android:background="@drawable/cast_tooltip_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:minHeight="32dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:textColor="@color/cast_expanded_controller_progress_text_color" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/controllers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_margin="8dp">
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp">
 
-            <TextView
-                android:id="@+id/status_text"
+            <com.google.android.gms.cast.framework.media.widget.CastSeekBar
+                android:id="@+id/cast_seek_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_marginBottom="@dimen/cast_expanded_controller_margin_between_status_text_and_seek_bar"
-                android:ellipsize="end"
-                android:gravity="center_horizontal"
-                android:maxLines="1"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/cast_expanded_controller_text_color" />
+                android:minHeight="20dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_centerVertical="true"
+                android:disabledAlpha="1.0"
+                android:contentDescription="@string/cast_seek_bar" />
 
-            <!-- Note: The views inside the seek bar controls are deliberately laid out in absolute
-                 LTR positioning in order to maintain the directionality of the time bar -->
+            <SeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cast_seek_bar"
+                android:minHeight="20dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_centerVertical="true"
+                android:disabledAlpha="1.0"
+                android:visibility="gone"
+                android:contentDescription="@string/cast_seek_bar" />
+
             <RelativeLayout
-                android:id="@+id/seek_bar_controls"
+                android:id="@+id/seek_bar_indicators"
+                android:minHeight="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginEnd="16dp"
-                android:layout_below="@id/status_text"
+                android:layout_below="@id/cast_seek_bar"
                 android:layoutDirection="ltr" >
 
-                <TextView
-                    android:id="@+id/start_text"
+                <RelativeLayout
+                    android:id="@+id/start_text_container"
+                    android:minHeight="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:maxLines="1"
-                    android:text="@string/cast_invalid_stream_position_text"
-                    android:textColor="@color/cast_expanded_controller_progress_text_color" />
+                    android:layoutDirection="ltr" >
 
-                <TextView
-                    android:id="@+id/end_text"
+                    <TextView
+                        android:id="@+id/start_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:maxLines="1"
+                        android:text="@string/cast_invalid_stream_position_text"
+                        android:textColor="@color/cast_expanded_controller_progress_text_color" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/end_text_container"
+                    android:minHeight="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:layout_alignWithParentIfMissing="true"
                     android:layout_centerVertical="true"
-                    android:maxLines="1"
-                    android:text="@string/cast_invalid_stream_duration_text"
-                    android:textColor="@color/cast_expanded_controller_progress_text_color" />
+                    android:layoutDirection="ltr" >
 
-                <ImageView
-                    android:id="@+id/live_stream_indicator"
+                    <TextView
+                        android:id="@+id/end_text"
+                        android:layout_marginLeft="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:maxLines="1"
+                        android:text="@string/cast_invalid_stream_duration_text"
+                        android:textColor="@color/cast_expanded_controller_progress_text_color" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/live_indicators"
+                    android:minHeight="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@id/end_text"
-                    android:layout_alignLeft="@id/end_text"
-                    android:layout_alignRight="@id/end_text"
-                    android:layout_alignTop="@id/end_text"
-                    android:layout_centerVertical="true"
-                    android:visibility="invisible"
+                    android:layout_toLeftOf="@id/end_text_container"
+                    android:layout_toStartOf="@id/end_text_container"
+                    android:layout_toRightOf="@id/start_text_container"
+                    android:layout_toEndOf="@id/start_text_container"
                     android:contentDescription="@string/cast_expanded_controller_live_stream_indicator"
-                    android:src="@drawable/quantum_ic_bigtop_updates_white_24" />
+                    android:layoutDirection="ltr" >
 
-                <SeekBar
-                    android:id="@+id/seek_bar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/end_text"
-                    android:layout_toRightOf="@+id/start_text"
-                    android:disabledAlpha="1.0"
-                    android:contentDescription="@string/cast_seek_bar" />
+                    <TextView
+                        android:id="@+id/live_indicator_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:maxLines="1"
+                        android:text="@string/cast_live_label"
+                        android:visibility="gone"
+                        android:textColor="@color/cast_expanded_controller_progress_text_color" />
 
-                <SeekBar
-                    android:id="@+id/live_stream_seek_bar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_alignBottom="@id/seek_bar"
-                    android:layout_alignLeft="@id/seek_bar"
-                    android:layout_alignRight="@id/seek_bar"
-                    android:layout_alignTop="@id/seek_bar"
-                    android:layout_toLeftOf="@+id/end_text"
-                    android:layout_toRightOf="@+id/start_text"
-                    android:contentDescription="@string/cast_seek_bar"
-                    android:visibility="invisible" />
+                    <ImageView
+                        android:id="@+id/live_indicator_dot"
+                        android:minWidth="18dp"
+                        android:minHeight="20dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="4dp"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/live_indicator_text"
+                        android:layout_toStartOf="@id/live_indicator_text"
+                        android:visibility="gone"
+                        android:src="@drawable/cast_expanded_controller_live_indicator_drawable"
+                        android:contentDescription="@string/cast_expanded_controller_live_head_description"/>
+
+                </RelativeLayout>
 
             </RelativeLayout>
 
@@ -236,7 +318,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/cast_expanded_controller_margin_between_seek_bar_and_control_buttons"
-                android:layout_below="@id/seek_bar_controls">
+                android:layout_below="@id/seek_bar_indicators">
 
                 <ImageButton
                     android:id="@+id/button_0"

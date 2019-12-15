@@ -11,6 +11,7 @@
 <string name="cast_expanded_controller_ad_image_description" msgid="5668979866539349222">"Picha inayoonyeshwa wakati kipokezi cha kutuma kinaonyesha tangazo"</string>
 <string name="cast_expanded_controller_ad_in_progress" msgid="9069517964239146855">"Tangazo linaendelea..."</string>
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"Sanaa ya albamu"</string>
+<string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"Nafasi ya sasa iko katika kichwa cha mtiririko wa moja kwa moja"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"Mtiririko wa moja kwa moja"</string>
 <string name="cast_expanded_controller_loading" msgid="7334411994450681286">"Inapakia…"</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"Ruka Tangazo"</string>
@@ -19,6 +20,7 @@
 <string name="cast_forward_10" msgid="6424889955881797947">"Sogeza mbele kwa sekunde kumi"</string>
 <string name="cast_forward_30" msgid="7868672855975238403">"Sogeza mbele kwa sekunde thelathini"</string>
 <string name="cast_intro_overlay_button_text" msgid="6885943100773268783">"@android:string/ok"</string>
+<string name="cast_live_label" msgid="2177473333963666559">"MOJA KWA MOJA"</string>
 <string name="cast_mute" msgid="5637297909372905371">"Zima sauti"</string>
 <string name="cast_pause" msgid="5308503786390460607">"Sitisha"</string>
 <string name="cast_play" msgid="5906987965619702702">"Cheza"</string>
