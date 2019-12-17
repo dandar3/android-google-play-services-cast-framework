@@ -13,7 +13,7 @@
 <string name="cast_expanded_controller_background_image" msgid="8886260998635257149">"עטיפת אלבום"</string>
 <string name="cast_expanded_controller_live_head_description" msgid="8879956505757481681">"המיקום הנוכחי בראש הסטרימינג בשידור חי"</string>
 <string name="cast_expanded_controller_live_stream_indicator" msgid="1316611227831672183">"זרם בשידור חי"</string>
-<string name="cast_expanded_controller_loading" msgid="7334411994450681286">"טוען…"</string>
+<string name="cast_expanded_controller_loading" msgid="7334411994450681286">"בטעינה…"</string>
 <string name="cast_expanded_controller_skip_ad_label" msgid="8524154027649233400">"דילוג על המודעה"</string>
 <string name="cast_expanded_controller_skip_ad_text" msgid="1171005989073753111">"‏ניתן יהיה לדלג על המודעה בעוד %1$d…"</string>
 <string name="cast_forward" msgid="7884080323096468593">"העבר"</string>
