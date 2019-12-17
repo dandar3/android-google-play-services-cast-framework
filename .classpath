@@ -11,8 +11,12 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-media"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-mediarouter"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-recyclerview"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/google-datatransport-transport-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/google-datatransport-transport-backend-cct"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/google-datatransport-transport-runtime"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-base"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-basement"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-cast"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services-tasks"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding='utf-8' standalone='no'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/dev/client/cast/framework/res/values-ar/cast_strings.xml -->
+<!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-ar/cast_strings.xml -->
 <eat-comment/>
 <string name="cast_ad_label" msgid="4778414446709286370">"إعلان"</string>
 <string name="cast_casting_to_device" msgid="366047012176970604">"‏جارٍ الإرسال إلى %1$s"</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding='utf-8' standalone='no'?>
 <resources>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values-land/cast_dimens.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values-land/cast_dimens.xml -->
 <eat-comment/>
 <dimen name="cast_expanded_controller_ad_background_layout_height">200dp</dimen>
 <dimen name="cast_expanded_controller_ad_background_layout_width">240dp</dimen>

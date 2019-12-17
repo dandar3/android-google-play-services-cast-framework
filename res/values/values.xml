@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding='utf-8' standalone='no'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_arrays.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_arrays.xml -->
 <eat-comment/>
 <array name="cast_expanded_controller_default_control_buttons"><item>@id/cast_button_type_closed_caption</item>
 <item>@id/cast_button_type_skip_previous</item>
@@ -11,11 +11,11 @@
 <item>@id/cast_button_type_empty</item>
 <item>@id/cast_button_type_play_pause_toggle</item>
 </array>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_attrs.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_attrs.xml -->
 <eat-comment/>
 
 <attr name="castExpandedControllerToolbarStyle" format="reference"/>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_colors.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_colors.xml -->
 <eat-comment/>
 <color name="cast_expanded_controller_ad_break_marker_color">#FEC92F</color>
 <color name="cast_expanded_controller_ad_container_white_stripe_color">#1AFFFFFF</color>
@@ -38,7 +38,7 @@
 <color name="cast_seekbar_secondary_progress_color">#A6FFFFFF</color>
 <color name="cast_seekbar_tooltip_background_color">#e6616161</color>
 <color name="cast_seekbar_unseekable_progress_color">#4DFFFFFF</color>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_dimens.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_dimens.xml -->
 <eat-comment/>
 <dimen name="cast_expanded_controller_ad_background_layout_height">350dp</dimen>
 <dimen name="cast_expanded_controller_ad_background_layout_width">-1px</dimen>
@@ -76,7 +76,7 @@
 <dimen name="cast_seek_bar_thumb_size">12dp</dimen>
 <dimen name="cast_tracks_chooser_dialog_no_message_text_size">18sp</dimen>
 <dimen name="cast_tracks_chooser_dialog_row_text_size">18sp</dimen>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_ids.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_ids.xml -->
 <eat-comment/>
 
 <item name="cast_button_type_closed_caption" type="id"/>
@@ -102,10 +102,10 @@
 <item name="cast_featurehighlight_help_text_header_view" type="id"/>
 
 <item name="cast_featurehighlight_view" type="id"/>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_values.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_values.xml -->
 <eat-comment/>
 <integer name="cast_libraries_material_featurehighlight_pulse_base_alpha">138</integer>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_strings.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_strings.xml -->
 <eat-comment/>
 <string name="cast_ad_label">Ad</string>
 <string name="cast_casting_to_device">Casting to %1$s</string>
@@ -147,71 +147,71 @@
 <string name="cast_tracks_chooser_dialog_ok">OK</string>
 <string name="cast_tracks_chooser_dialog_subtitles">Subtitles</string>
 <string name="cast_unmute">Unmute</string>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_styles.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_styles.xml -->
 <eat-comment/>
 <style name="CastExpandedController">
-<item name="castAdLabelColor">@color/cast_expanded_controller_ad_label_background_color</item>
-<item name="castSeekBarSecondaryProgressColor">@color/cast_seekbar_secondary_progress_color</item>
 <item name="castControlButtons">@array/cast_expanded_controller_default_control_buttons</item>
-<item name="castSkipNextButtonDrawable">@drawable/cast_ic_expanded_controller_skip_next</item>
-<item name="castSeekBarUnseekableProgressColor">@color/cast_seekbar_unseekable_progress_color</item>
-<item name="castLiveIndicatorColor">@color/cast_expanded_controller_live_indicator_color</item>
-<item name="castAdBreakMarkerColor">@color/cast_expanded_controller_ad_break_marker_color</item>
-<item name="castExpandedControllerLoadingIndicatorColor">@color/cast_expanded_controller_loading_indicator_color</item>
-<item name="castAdInProgressLabelTextAppearance">@style/TextAppearance.CastExpandedController.AdInProgressLabel</item>
-<item name="castSeekBarProgressAndThumbColor">@color/cast_seekbar_progress_thumb_color</item>
-<item name="castSeekBarTooltipBackgroundColor">@color/cast_seekbar_tooltip_background_color</item>
-<item name="castRewind30ButtonDrawable">@drawable/cast_ic_expanded_controller_rewind30</item>
-<item name="castAdLabelTextAppearance">@style/TextAppearance.CastExpandedController.AdLabel</item>
-<item name="castAdInProgressTextColor">@color/cast_expanded_controller_ad_in_progress_text_color</item>
+<item name="castButtonColor">@null</item>
 <item name="castSeekBarProgressDrawable">@drawable/cast_expanded_controller_seekbar_track</item>
-<item name="castAdInProgressText">@string/cast_expanded_controller_ad_in_progress</item>
-<item name="castAdLabelTextColor">@color/cast_expanded_controller_ad_label_text_color</item>
-<item name="castForward30ButtonDrawable">@drawable/cast_ic_expanded_controller_forward30</item>
-<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_expanded_controller_closed_caption</item>
+<item name="castSeekBarThumbDrawable">@drawable/cast_expanded_controller_seekbar_thumb</item>
+<item name="castSeekBarProgressAndThumbColor">@color/cast_seekbar_progress_thumb_color</item>
+<item name="castSeekBarSecondaryProgressColor">@color/cast_seekbar_secondary_progress_color</item>
+<item name="castSeekBarUnseekableProgressColor">@color/cast_seekbar_unseekable_progress_color</item>
+<item name="castSeekBarTooltipBackgroundColor">@color/cast_seekbar_tooltip_background_color</item>
+<item name="castExpandedControllerLoadingIndicatorColor">@color/cast_expanded_controller_loading_indicator_color</item>
+<item name="castPlayButtonDrawable">@drawable/cast_ic_expanded_controller_play</item>
 <item name="castPauseButtonDrawable">@drawable/cast_ic_expanded_controller_pause</item>
 <item name="castStopButtonDrawable">@drawable/cast_ic_expanded_controller_pause</item>
-<item name="castButtonColor">@null</item>
 <item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_expanded_controller_skip_previous</item>
+<item name="castSkipNextButtonDrawable">@drawable/cast_ic_expanded_controller_skip_next</item>
+<item name="castRewind30ButtonDrawable">@drawable/cast_ic_expanded_controller_rewind30</item>
+<item name="castForward30ButtonDrawable">@drawable/cast_ic_expanded_controller_forward30</item>
 <item name="castMuteToggleButtonDrawable">@drawable/cast_ic_expanded_controller_mute</item>
-<item name="castPlayButtonDrawable">@drawable/cast_ic_expanded_controller_play</item>
+<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_expanded_controller_closed_caption</item>
+<item name="castAdBreakMarkerColor">@color/cast_expanded_controller_ad_break_marker_color</item>
+<item name="castAdLabelColor">@color/cast_expanded_controller_ad_label_background_color</item>
+<item name="castAdLabelTextColor">@color/cast_expanded_controller_ad_label_text_color</item>
+<item name="castAdInProgressTextColor">@color/cast_expanded_controller_ad_in_progress_text_color</item>
+<item name="castAdLabelTextAppearance">@style/TextAppearance.CastExpandedController.AdLabel</item>
+<item name="castAdInProgressLabelTextAppearance">@style/TextAppearance.CastExpandedController.AdInProgressLabel</item>
+<item name="castLiveIndicatorColor">@color/cast_expanded_controller_live_indicator_color</item>
+<item name="castAdInProgressText">@string/cast_expanded_controller_ad_in_progress</item>
 <item name="castDefaultAdPosterUrl">@null</item>
-<item name="castSeekBarThumbDrawable">@drawable/cast_expanded_controller_seekbar_thumb</item>
 </style>
 <style name="CastIntroOverlay">
+<item name="castBackgroundColor">@color/cast_intro_overlay_background_color</item>
+<item name="castButtonBackgroundColor">@color/cast_intro_overlay_button_background_color</item>
+<item name="castButtonText">@string/cast_intro_overlay_button_text</item>
 <item name="castButtonTextAppearance">@style/TextAppearance.CastIntroOverlay.Button</item>
 <item name="castFocusRadius">@dimen/cast_intro_overlay_focus_radius</item>
 <item name="castTitleTextAppearance">@style/TextAppearance.CastIntroOverlay.Title</item>
-<item name="castButtonText">@string/cast_intro_overlay_button_text</item>
-<item name="castBackgroundColor">@color/cast_intro_overlay_background_color</item>
-<item name="castButtonBackgroundColor">@color/cast_intro_overlay_button_background_color</item>
 </style>
 <style name="CastMiniController">
-<item name="castLargePauseButtonDrawable">@drawable/cast_ic_mini_controller_pause_large</item>
-<item name="castMiniControllerLoadingIndicatorColor">@color/cast_mini_controller_loading_indicator_color</item>
-<item name="castForward30ButtonDrawable">@drawable/cast_ic_mini_controller_forward30</item>
-<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_mini_controller_closed_caption</item>
-<item name="castControlButtons">@array/cast_mini_controller_default_control_buttons</item>
-<item name="castSkipNextButtonDrawable">@drawable/cast_ic_mini_controller_skip_next</item>
-<item name="castProgressBarColor">@color/cast_seekbar_progress_thumb_color</item>
+<item name="castShowImageThumbnail">true</item>
+<item name="castTitleTextAppearance">@style/TextAppearance.CastMiniController.Title</item>
 <item name="castSubtitleTextAppearance">@style/TextAppearance.CastMiniController.Subtitle</item>
+<item name="castControlButtons">@array/cast_mini_controller_default_control_buttons</item>
+<item name="castBackground">?android:attr/colorBackground</item>
+<item name="castProgressBarColor">@color/cast_seekbar_progress_thumb_color</item>
+<item name="castMiniControllerLoadingIndicatorColor">@color/cast_mini_controller_loading_indicator_color</item>
+<item name="castButtonColor">@null</item>
+<item name="castPlayButtonDrawable">@drawable/cast_ic_mini_controller_play</item>
 <item name="castPauseButtonDrawable">@drawable/cast_ic_mini_controller_pause</item>
 <item name="castStopButtonDrawable">@drawable/cast_ic_mini_controller_pause</item>
-<item name="castButtonColor">@null</item>
-<item name="castBackground">?android:attr/colorBackground</item>
 <item name="castLargePlayButtonDrawable">@drawable/cast_ic_mini_controller_play_large</item>
-<item name="castTitleTextAppearance">@style/TextAppearance.CastMiniController.Title</item>
+<item name="castLargePauseButtonDrawable">@drawable/cast_ic_mini_controller_pause_large</item>
 <item name="castLargeStopButtonDrawable">@drawable/cast_ic_mini_controller_pause_large</item>
-<item name="castRewind30ButtonDrawable">@drawable/cast_ic_mini_controller_rewind30</item>
 <item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_mini_controller_skip_prev</item>
+<item name="castSkipNextButtonDrawable">@drawable/cast_ic_mini_controller_skip_next</item>
+<item name="castRewind30ButtonDrawable">@drawable/cast_ic_mini_controller_rewind30</item>
+<item name="castForward30ButtonDrawable">@drawable/cast_ic_mini_controller_forward30</item>
 <item name="castMuteToggleButtonDrawable">@drawable/cast_ic_mini_controller_mute</item>
-<item name="castPlayButtonDrawable">@drawable/cast_ic_mini_controller_play</item>
-<item name="castShowImageThumbnail">true</item>
+<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_mini_controller_closed_caption</item>
 </style>
 <style name="CustomCastTheme">
-<item name="castExpandedControllerStyle">@style/CastExpandedController</item>
 <item name="castIntroOverlayStyle">@style/CastIntroOverlay</item>
 <item name="castMiniControllerStyle">@style/CastMiniController</item>
+<item name="castExpandedControllerStyle">@style/CastExpandedController</item>
 </style>
 <style name="TextAppearance.CastExpandedController.AdInProgressLabel" parent="android:style/TextAppearance.Small">
 </style>
@@ -227,7 +227,7 @@
 </style>
 <style name="TextAppearance.CastMiniController.Title" parent="android:style/TextAppearance.Medium">
 </style>
-<!-- java/com/google/android/gmscore/dev/client/cast/framework/res/values/cast_attrs.xml -->
+<!-- java/com/google/android/gmscore/integ/client/cast/framework/res/values/cast_attrs.xml -->
 <eat-comment/>
 <declare-styleable name="CastExpandedController">
 <attr name="castButtonColor"/>

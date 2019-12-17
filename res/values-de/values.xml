@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding='utf-8' standalone='no'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/dev/client/cast/framework/res/values-de/cast_strings.xml -->
+<!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-de/cast_strings.xml -->
 <eat-comment/>
 <string name="cast_ad_label" msgid="4778414446709286370">"Werbeanzeige"</string>
 <string name="cast_casting_to_device" msgid="366047012176970604">"Inhalte werden an %1$s gestreamt"</string>
@@ -37,7 +37,7 @@
 <string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Untertitel"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"Titel <xliff:g id="POSITION">%1$d</xliff:g>"</string>
 <string name="cast_tracks_chooser_dialog_none" msgid="1176688358580178396">"Keine"</string>
-<string name="cast_tracks_chooser_dialog_ok" msgid="3804878371876790270">"OK"</string>
+<string name="cast_tracks_chooser_dialog_ok" msgid="3804878371876790270">"Ok"</string>
 <string name="cast_tracks_chooser_dialog_subtitles" msgid="2454147715032376208">"Untertitel"</string>
 <string name="cast_unmute" msgid="2913461521603516868">"Stummschaltung aufheben"</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding='utf-8' standalone='no'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/dev/client/cast/framework/res/values-bs/cast_strings.xml -->
+<!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/integ/client/cast/framework/res/values-bs/cast_strings.xml -->
 <eat-comment/>
 <string name="cast_ad_label" msgid="4778414446709286370">"Oglas"</string>
 <string name="cast_casting_to_device" msgid="366047012176970604">"Prebacuje se na %1$s"</string>
@@ -37,7 +37,7 @@
 <string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"Titlovi"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"Numera <xliff:g id="POSITION">%1$d</xliff:g>"</string>
 <string name="cast_tracks_chooser_dialog_none" msgid="1176688358580178396">"Ništa"</string>
-<string name="cast_tracks_chooser_dialog_ok" msgid="3804878371876790270">"UREDU"</string>
+<string name="cast_tracks_chooser_dialog_ok" msgid="3804878371876790270">"Uredu"</string>
 <string name="cast_tracks_chooser_dialog_subtitles" msgid="2454147715032376208">"Titlovi"</string>
 <string name="cast_unmute" msgid="2913461521603516868">"Uključi zvuk"</string>
 </resources>
