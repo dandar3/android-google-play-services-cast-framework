@@ -33,7 +33,7 @@
 <string name="cast_stop" msgid="9191388946729723891">"ବନ୍ଦ କରନ୍ତୁ"</string>
 <string name="cast_stop_live_stream" msgid="1219622777438777099">"ଲାଇଭ୍ ଷ୍ଟ୍ରୀମ୍ ବନ୍ଦ କରନ୍ତୁ"</string>
 <string name="cast_tracks_chooser_dialog_audio" msgid="4250321332248956563">"ଅଡିଓ"</string>
-<string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"କ୍ୟାନ୍ସଲ୍‍ କରନ୍ତୁ"</string>
+<string name="cast_tracks_chooser_dialog_cancel" msgid="1162380934229249476">"ବାତିଲ୍ କରନ୍ତୁ"</string>
 <string name="cast_tracks_chooser_dialog_closed_captions" msgid="1779359505126875127">"ସବଟାଇଟଲ୍‌"</string>
 <string name="cast_tracks_chooser_dialog_default_track_name" msgid="3012268736704635952">"<xliff:g id="POSITION">%1$d</xliff:g> ଟ୍ରାକ୍‌ କରନ୍ତୁ"</string>
 <string name="cast_tracks_chooser_dialog_none" msgid="1176688358580178396">"କିଛି ନୁହେଁ"</string>

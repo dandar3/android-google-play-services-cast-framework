@@ -279,7 +279,6 @@
                     android:layout_toStartOf="@id/end_text_container"
                     android:layout_toRightOf="@id/start_text_container"
                     android:layout_toEndOf="@id/start_text_container"
-                    android:contentDescription="@string/cast_expanded_controller_live_stream_indicator"
                     android:layoutDirection="ltr" >
 
                     <TextView
@@ -291,6 +290,7 @@
                         android:maxLines="1"
                         android:text="@string/cast_live_label"
                         android:visibility="gone"
+                        android:contentDescription="@string/cast_expanded_controller_live_stream_indicator"
                         android:textColor="@color/cast_expanded_controller_progress_text_color" />
 
                     <ImageView
